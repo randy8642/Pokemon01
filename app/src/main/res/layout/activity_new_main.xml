@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="請輸入個人資訊"
-            android:id="@+id/infiText"
+            android:id="@+id/infoText"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="43dp"
@@ -35,13 +35,13 @@
             android:layout_marginTop="23dp"
             android:allowUndo="false"
             android:hint="請輸入您的名字"
-            android:layout_below="@+id/infiText"
+            android:layout_below="@+id/infoText"
             android:layout_centerHorizontal="true" />
 
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/radioGroup"
+            android:id="@+id/optionGroup"
             android:layout_below="@+id/nameEditText"
             android:layout_centerHorizontal="true">
 
@@ -69,10 +69,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="確定"
-            android:id="@+id/button"
-            android:layout_below="@+id/radioGroup"
-            android:layout_alignLeft="@+id/radioGroup"
-            android:layout_alignStart="@+id/radioGroup" />
+            android:id="@+id/comfirmButton"
+            android:layout_below="@+id/optionGroup"
+            android:layout_alignLeft="@+id/optionGroup"
+            android:layout_alignStart="@+id/optionGroup" />
 
     </RelativeLayout>
 
